@@ -1,4 +1,17 @@
-.row {
+.footer-logo {
+  margin-top: 10px;
+}
+
+.image-logo {
+  margin-left: 1%;
+  max-width: 30%;
+  @media screen and (max-width: 769px) {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+  }
+}
+.main-content {
   margin-top: 40px;
   @media screen and (min-width: 769px) {
   height: auto;
@@ -8,7 +21,6 @@
 footer {
   width: 100%;
   height: auto;
-  // margin-top: 500px; //this margin top is only here to keep the footer away from the header while the body is being worked on.
   background-color: #333333;
   @media screen and (min-width: 769px) {
     height: auto;
@@ -37,7 +49,7 @@ footer ul li {
   a {
     color: #CEB884;
   }
-  h4 {
+  h4 { // this is how I am add the border bottom to contact and connect
     color: white;
     border-bottom: solid 2px #695739;
     display: inline;
@@ -53,7 +65,7 @@ footer ul {
   }
 }
 
-.last-column ul li {
+.contact-column ul li {
   width: 100%;
   text-align: right;
   padding-right: 2%;
@@ -62,7 +74,7 @@ footer ul {
   }
 }
 
-.last-column {
+.contact-column {
   @media screen and (max-width: 989px) {
     float: right;
   }
@@ -81,7 +93,7 @@ footer ul {
   }
 }
 
-.col-sm-12 {
+.copyright-row {
   margin-bottom: 15px;
 }
 
@@ -91,9 +103,8 @@ footer ul {
   font-weight: 700;
 }
 
-img {
+.social-icons img {
   margin-top: 18px;
   margin-right: 2%;
   float: right;
-  border: 1px solid red;
 }
